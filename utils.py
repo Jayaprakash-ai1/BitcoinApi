@@ -48,8 +48,6 @@ def preprocessdata(crypto,curr,days):
         model_lstm.add(Dense(100,activation="relu"))
         model_lstm.add(Dense(300,activation="relu"))
         model_lstm.add(Dense(400,activation="relu"))
-        model_lstm.add(Dense(400,activation="relu"))
-        model_lstm.add(Dense(300))
         model_lstm.add(Dense(100))
         model_lstm.add(Dense(1))
         model_lstm.summary()
